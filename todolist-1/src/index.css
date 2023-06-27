@@ -1,0 +1,70 @@
+body {
+  background: #e9ecef;
+}
+
+.App {
+  width: 1200px;
+  height: 768px;
+
+  position: relative; /* 추후 박스 하단에 추가 버튼을 위치시키기 위한 설정 */
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.04);
+
+  margin: 0 auto; /* 페이지 중앙에 나타나도록 설정 */
+
+  margin-top: 96px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  border-bottom: 1px solid #e9ecef;
+  padding : 10px;
+}
+
+
+form {
+  padding: 20px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+input {
+  width: 200px;
+  margin: 0 10px 0 10px;
+  padding: 5px;
+}
+
+.add {
+  float: right;
+}
+
+.item {
+  margin-left: 20px;
+  text-align: center;
+  width: 326px;
+  height: 200px;
+  border-radius: 16px;
+  border: 2px solid #27AE60;
+}
+
+.button-group {
+  transform: translateY(50px);
+}
+
+.del-button {
+  width: 70px;
+  height: 40px;
+  border: 2px solid #C0392B;
+  color: #C0392B;
+  background: #fff;
+}
+
+.suc-button {
+  width: 70px;
+  height: 40px;
+  border: 2px solid #27AE60;
+  color: #27AE60;
+  background: #fff;
+}
